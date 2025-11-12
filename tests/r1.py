@@ -4,13 +4,13 @@ from unittest.mock import patch
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
-from library_service import (
+from services.library_service import (
     add_book_to_catalog
 )
 
 
-@patch('library_service.get_book_by_isbn', return_value=None)
-@patch('library_service.insert_book', return_value=True)
+@patch('services.library_service.get_book_by_isbn', return_value=None)
+@patch('services.library_service.insert_book', return_value=True)
 def test_add_book_valid_input(mock_insert, mock_get_isbn):
     """Test adding a book with valid input."""
     success, message = add_book_to_catalog("Test Book", "Test Author", "1234567890123", 5)
