@@ -1,0 +1,26 @@
+{
+  "name": "cisc327-cmpe327-f25",
+  "version": "1.0.0",
+  "description": "This project contains a partial implementation of a Flask-based Library Management System with SQLite database, designed for CISC 327 (Software Quality Assurance) coursework.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangtran162/cisc327-library-management-a2-0917.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/quangtran162/cisc327-library-management-a2-0917/issues"
+  },
+  "homepage": "https://github.com/quangtran162/cisc327-library-management-a2-0917#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
